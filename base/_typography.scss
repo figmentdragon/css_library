@@ -1,0 +1,183 @@
+/* Text Elements  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+%heading {
+  margin-top: 0; // 1
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-style: $headings-font-style;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: $headings-color;
+}
+/* Header Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend %heading;
+  font-weight: bold;
+  margin: 0 0 $base-unit;
+  line-height: $headings-line-height;
+
+  a {
+    font-weight: inherit;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.h1,
+h1 {
+  @extend %heading;
+  @include font-size($h1-font-size);
+  line-height: $xl;
+  margin: calc(2 * $base-unit) 0 0.67em;
+}
+
+.h2,
+h2{
+  @extend %heading;
+  @include font-size($h2-font-size);
+  line-height: $lg;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.h3,
+h3{
+  @extend %heading;
+  @include font-size($h3-font-size);
+}
+
+
+.h4,
+h4{
+  @extend %heading;
+  @include font-size($h4-font-size);
+  line-height: $line-height-body;
+}
+
+.h5,
+h5 {
+  @extend %heading;
+  @include font-size($h5-font-size);
+  line-height: $md;
+}
+
+.h6,
+h6{
+  @extend %heading;
+  @include font-size($h6-font-size);
+
+      margin-top: $base-unit;
+      margin-bottom: 0;
+}
+/* Text Styles */
+p {
+  margin-top: 0;
+}
+
+.em,
+cite,
+dfn,
+em,
+i {
+  font-style: italic;
+}
+
+.strong,
+b,
+strong {
+  font-weight: $font-weight-bolder;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+blockquote,
+q {
+  font-style: oblique;
+  margin: 0 0 1rem;
+  quotes: '' '';
+  display: inline;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  font-style: italic;
+  content: '';
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+abbr,
+abbr[title],
+acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+ins,
+mark {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+mark {
+  padding: $mark-padding;
+  background-color: $mark-bg;
+}
+
+menu {
+  padding: 0 0 0 40px;
+}
+
+sub,
+sup {
+  @include font-size($sub-sup-font-size);
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+  bottom: 1ex;
+}
+
+sub {
+  top: 0.5ex;
+  bottom: -.25em;
+}
+
+.small,
+small {
+  font-size: percentage($sm);
+  @include font-size($small-font-size);
+}
+
+big {
+  font-size: 125%;
+}
+/* Spacing –––––––––––––––––––––––––––––––––––––––––––––––––– */
+blockquote,
+dl,
+figure,
+form,
+menu,
+ol,
+p,
+pre,
+table,
+ul {
+  margin: 1rem 0;
+}

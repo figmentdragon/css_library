@@ -1,0 +1,54 @@
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  display: revert;
+  all: unset;
+}
+
+/* Preferred box-sizing value */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+
+
+html {
+    background-color: white;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+
+input,
+select,
+textarea,
+button {
+    color: inherit;
+    display: inline-block;
+
+    &[disabled] {
+        cursor: not-allowed;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    th,
+    td {
+        text-align: left;
+    }
+}
