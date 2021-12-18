@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "...acing-vertical)": expected ";", was ");"
+        on line 6 of /home/figmentdragon/GitHub/creativity-architecture/docs/library/scss/layout/posts-and-pages.scss
+
+1: .sticky {
+2: 	// This class is required to pass ThemeCheck.
+3: }
+4: 
+5: .no-results.not-found > *:first-child {
+6: 	margin-bottom: calc(3 * $spacing-vertical));
+7: }
+8: 
+9: // Styling for wp_link_pages.
+10: .page-links {
+11: 	clear: both;
+
+Backtrace:
+/home/figmentdragon/GitHub/creativity-architecture/docs/library/scss/layout/posts-and-pages.scss:6
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:804:in `block in try_declaration'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/usr/share/koala/bin/sass:22:in `load'
+/usr/share/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...acing-vertical)\": expected \";\", was \");\"\A         on line 6 of /home/figmentdragon/GitHub/creativity-architecture/docs/library/scss/layout/posts-and-pages.scss\A \A 1: .sticky {\A 2: 	// This class is required to pass ThemeCheck.\A 3: }\A 4: \A 5: .no-results.not-found > *:first-child {\A 6: 	margin-bottom: calc(3 * $spacing-vertical));\A 7: }\A 8: \A 9: // Styling for wp_link_pages.\A 10: .page-links {\A 11: 	clear: both;"; }
