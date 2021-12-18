@@ -1,0 +1,43 @@
+/* _______________________________________ COLOR PALETTE */
+/* Color Variables */
+
+/* scss-docs-start gray-color-variables */
+$white                       : #e4edf4 !default;
+$gray-100                    : #c0c0c0 !default;
+$gray-200                    : #9a9a9a !default;
+$gray-300                    : #7b7b7b !default;
+$gray-400                    : #626262 !default;
+$gray-500                    : #4e4e4e !default;
+$gray-600                    : #3e3e3e !default;
+$gray-700                    : #323232 !default;
+$gray-800                    : #282828 !default;
+$gray-900                    : #1a1a1a !default;
+$black                       : #000100 !default;
+/* scss-docs-end gray-color-variables */
+
+/* Color Variables */
+$blue                        : #0a0fba !default;
+$indigo                      : #6600ff !default;
+$purple                      : #510bda !default;
+$pink                        : #fc89ac !default;
+$red                         : #ba0a0f !default;
+$orange                      : #fd8535 !default;
+$yellow                      : #ffe41e !default;
+$green                       : #82ded1 !default;
+$teal                        : #b5ede4 !default;
+$cyan                        : #0abab5 !default;
+$gray                        : $gray-600 !default;
+$light: $gray-200 !default;
+$dark:  $gray-800 !default;
+
+/* Brand Colors */
+$primary-color               : $cyan !default;
+$secondary-color             : $yellow !default;
+$accent-color                : $silver !default;
+
+/* Utility Colors */
+$valid-color                 : $light-cyan !default;
+$info-color                  : $neon-blue !default;
+$alert-color                 : $salomie !default;
+$invalid-color               : $wild-watermelon !default;
+$attention-color             : $hot-pink !default;

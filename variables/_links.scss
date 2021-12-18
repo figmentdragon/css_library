@@ -1,0 +1,13 @@
+/* ______________________________________________________ Link */
+/* Style anchor elements. */
+$link-text-color:                              $link-text-color;
+$link-decoration:                         bold;
+$link-hover-color:                        $link-text-hover-color;
+$link-hover-color-decoration:                   underline, bold;
+
+$link-visited-color:                      $link-text-visited-color;
+$link-visited-decoration:                 underline;
+$link-visited-hover:                      $link-text-visited-hover;
+
+$stretched-link-pseudo-element:           after;
+$stretched-link-z-index:                  1;

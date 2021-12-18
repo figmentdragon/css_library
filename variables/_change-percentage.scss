@@ -1,0 +1,50 @@
+/* CHANGEpercentage _________________________________________________________
+
+Theme/Brand Name                    : CJMT
+Author                              : CJMT
+
+Stylesheet                          : CJMT Brand Stylesheet
+
+  = TOC =
+  [] Color Palette
+    (1) Color Variables
+    (2) Brand Colors
+    (3) Utilities Colors
+  [] Properties
+  [] Utilities
+
+_________________________________________________________ CHANGEpercentage */
+
+$active-text-shade-percentage       : 20%;
+$active-bg-tint-color-percentage    : 40%;
+$active-border-shade-border         : 35%;
+$active-hover-change-percentage     : 15%;
+$active-percentage                  : $active-text-shade-percentage;
+$disabled-text-shade-percentage     : 40%;
+$disabled-bg-tint-percentage        : 50%;
+$disabled-border-shade-border       : 45%;
+
+$link-shade-percentage              : 10%;
+$link-hover-shade-percentage        : 15%;
+$link-visited-shade-percentage      : 40%;
+
+$background-tint-percentage         : 15%;
+$border-shade-percentage            : 25%;
+$muted-tint-percentage              : 20%;
+$hover-shade-percentage             : 20%;
+$focus-shade-percentage             : 35%;
+
+$btn-disabled-opacity               : .45;
+
+$input-btn-focus-color-opacity      : .25;
+$input-btn-focus-blur               : 0;
+
+$btn-disabled-opacity               : .65;
+$btn-hover-bg-shade-percentage      : 15%;
+$btn-hover-bg-tint-percentage       : 20%;
+$btn-hover-border-shade-percentage  : 35%;
+$btn-hover-border-tint-percentage   : 40%;
+$btn-active-bg-shade-percentage     : 45%;
+$btn-active-bg-tint-percentage      : 50%;
+$btn-active-border-shade-percentage : 60%;
+$btn-active-border-tint-percentage  : 65%;

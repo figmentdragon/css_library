@@ -1,0 +1,27 @@
+$base-number: 1.15;
+$thickness: 1px;
+$border-radius-deg: .94rem;
+
+@import "foundations/base-unit";
+
+@import "foundations/spacer";
+
+@import "foundations/block-spacing";
+
+@import "foundations/grid/variables";
+
+@import "foundations/grid/breakpoints";
+
+@import "foundations/grid/containers";
+
+@import "foundations/offset";
+
+@import "foundations/padding";
+
+@import "foundations/aspect-ratios";
+
+@import "foundations/position-value";
+
+@import "foundations/zindex";
+
+@import "foundations/borders";
