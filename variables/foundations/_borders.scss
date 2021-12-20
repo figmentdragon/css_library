@@ -1,5 +1,5 @@
 // Components
-$border-width:          $thickness;
+$border-width:          $base-width;
 $border-widths: (
   1: 1px,
   2: 2px,
@@ -14,7 +14,7 @@ $border-width-lg:       3;
 $border-width-focus:    divide($xs, 3);
 $border-width-hover:    $border-width-lg;
 
-$border-radius:         $border-radius-deg;
+$border-radius:         $base-radius;
 $border-radius-sm:      $border-radius * $sm;
 $border-radius-md:      $border-radius * $md;
 $border-radius-lg:      $border-radius * $lg;
@@ -24,3 +24,6 @@ $border-radius-pill:    50rem;
 
 $btn-border-radius:                 $border-radius-sm;
 $btn-focus-width:                   $border-width-focus;
+$card-border-radius-inner: $border-radius-sm;
+
+$border:            $border-color;
