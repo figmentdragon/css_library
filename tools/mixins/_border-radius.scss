@@ -14,6 +14,10 @@
   @return $return;
 }
 
+@mixin border-radius($radius: $card-border-radius) {
+  border-radius: valid-radius($radius);
+}
+
 // scss-docs-start border-radius-mixins
 @mixin border-radius($radius: $border-radius, $fallback-border-radius: false) {
 
